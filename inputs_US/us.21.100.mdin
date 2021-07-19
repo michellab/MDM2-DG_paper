@@ -1,0 +1,31 @@
+Umbrella Sampling
+&cntrl
+  imin=0, 
+  ntx=5, 
+  irest=1, 
+  nstlim=500000, 
+  dt=0.002, 
+  ntpr=500, 
+  ntwx=500, 
+  ntwr=500, 
+  ntf=2, 
+  ntc=2, 
+  ntb=2, 
+  ntp=1, 
+  pres0=1.0, 
+  cut=10, 
+  tempi=300.0, 
+  temp0=300.0, 
+  nmropt=1,
+  ntt=1, 
+  ioutfm=1, 
+  iwrap=1, 
+&end
+&wt
+  type='DUMPFREQ', istep1=5,
+&end
+&wt
+  type='END', 
+&end
+DISANG=./prod_21_100/va.21.100.RST
+DUMPAVE=./prod_21_100/va.21.100.prod

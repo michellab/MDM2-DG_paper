@@ -1,0 +1,34 @@
+amd SETUP1 : Ep -114808 ap 6200 Ed 1660 ad 88
+&cntrl
+  imin=0, 
+  nmropt=0,
+  ntx=5, 
+  irest=1,
+  ntpr=10000, 
+  ntwr=10000, 
+  ntwx=10000,
+  ioutfm=1, 
+  ntwv=0, 
+  ntwe=0,
+  idecomp=0, 
+  iwrap=1,
+  ntr=1, 
+  restraint_wt=20.0,
+  restraintmask=':26-123',   ! Residues of APO - lid(1-25)
+  nstlim=5000000, 
+  dt=0.002,
+  ntt=1, 
+  temp0=300.0, 
+  tempi=300.0, 
+  ntb=2, 
+  ntp=1,
+  ntc=2, 
+  ntf=2, 
+  cut=10.0, 
+  iamd=3, ! aMD parameters
+  EthreshP=-130310, 
+  alphaP=10000,
+  EthreshD=3000,
+  alphaD=78, 
+&end
+
